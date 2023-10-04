@@ -56,8 +56,10 @@ body {
 .yazi3{
     width: 100%;
     position: absolute;
-    top: 85%;
-    text-align: center;
+    top: 65%;
+    /* text-align: right; */
+    left: 60%;
+ 
 
 }
 .kenarlik{
@@ -93,6 +95,24 @@ body {
     align-items: center;
     
     
+}
+.kutular:hover{
+   /* background-color: #0051ff; */
+}
+.du1:hover{
+    background-color: lightblue;
+    transform: scale(1.1);
+    transition: all ease-in-out 400ms;
+}
+.du2:hover{
+    background-color: lightblue;
+    transform: scale(1.1);
+    transition: all ease-in-out 400ms;
+}
+.du3:hover{
+    background-color:lightblue;
+    transform: scale(1.1);
+    transition: all ease-in-out 400ms;
 }
 .kutu{
     width: 25%;
